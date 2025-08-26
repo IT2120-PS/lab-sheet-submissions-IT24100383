@@ -1,4 +1,4 @@
-setwd("C:\\Users\\it24100264\\Desktop\\it24100264")
+
 #Q1
 branch_data <-read.table("Exercise.txt",header=TRUE,sep=",")
 
@@ -30,4 +30,5 @@ get.outliers<-function(z){
         
 }
 #check for outliers in years variables
+
 get.outliers(Years_X3)
